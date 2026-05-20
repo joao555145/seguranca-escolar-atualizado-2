@@ -47,7 +47,7 @@ async function enviarPerguntaIA() {
             "application/json",
 
           "Authorization":
-            "Bearer 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"
+            "Bearer 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"
 
         },
 
@@ -60,7 +60,7 @@ async function enviarPerguntaIA() {
               role: "system",
 
               content:
-                "Você é um assistente de tecnologia que responde de forma curta, simples, direta e resumida. Responda em poucas linhas."
+                "Você é um assistente de tecnologia que responde de forma curta, simples, direta e resumida. Responda em poucas linhas, e lembre-se de forma curta e bem resumida."
 
             },
 
@@ -134,4 +134,4 @@ async function enviarPerguntaIA() {
 
 }
 
-//api key: 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
+//api key: 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 
