@@ -10,6 +10,7 @@
 
   <title>Segurança da Escola</title>
 
+  <link rel="icon" type="image/png" href="sergio.png">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -22,7 +23,7 @@
   <div class="home-content">
 
     <img
-      src="logo-seguranca.png"
+      src="sergio.png"
       alt="Logo Segurança Escolar"
       class="logo-home"
     >
@@ -57,7 +58,7 @@
 
     <!-- LOGO -->
     <h1 class="logo">
-      Segurança Escolar e Monitoramento
+      SEGURANÇA ESCOLAR E MONITORAMENTO
     </h1>
 
   </header>
@@ -81,12 +82,17 @@
     </button>
 
     <button class="botao" data-target="secao3">
-      Assistente IA
+      Alexcio AI
     </button>
 
     <button class="botao ativo" data-target="secao4">
+      Professores
+    </button>
+
+    <button class="botao ativo" data-target="secao5">
       Coisas Extras 
     </button>
+
 
     <!-- DARK MODE -->
     <button id="themeToggle" class="theme-toggle">
@@ -114,8 +120,7 @@
           </h2>
 
           <p>
-            Este sistema foi criado para auxiliar
-            no monitoramento e segurança escolar.
+            
           </p>
 
           <div class="cards-home">
@@ -124,7 +129,7 @@
               <h3>Sensor PIR</h3>
 
               <p>
-                Detecta movimentos em tempo real.
+                O sensor PIR detecta movimentos no ambiente através da radiação infravermelha. Quando há movimento, o sistema ativa um LED e envia um alerta no monitor serial.
               </p>
             </div>
 
@@ -132,15 +137,15 @@
               <h3>Detector de Fumaça</h3>
 
               <p>
-                Identifica fumaça e gases no ambiente.
+                O detector de fumaça identifica gases e fumaça no ambiente utilizando o sensor MQ-2. Ao detectar risco, o sistema ativa um LED vermelho e um buzzer de alerta.
               </p>
             </div>
 
             <div class="card-home">
-              <h3>Assistente IA</h3>
+              <h3>Alexcio AI</h3>
 
               <p>
-                Tire dúvidas rápidas sobre tecnologia.
+                O Alexcio AI ajuda os usuários com dúvidas sobre tecnologia e programação através de um chat inteligente integrado ao sistema.
               </p>
             </div>
 
@@ -323,13 +328,13 @@ void loop() {
       <!-- SEÇÃO 3 -->
       <section class="secao" id="secao3">
 
-        <h2>ASSISTENTE IA</h2>
+        <h2>Alexcio AI</h2>
 
         <!-- CHAT -->
         <div id="ia-area" class="descricao ia-area">
 
           <p>
-            <b>IA:</b>
+            <b>Alexcio:</b>
             Olá! Faça perguntas sobre tecnologia.
           </p>
 
@@ -359,6 +364,23 @@ void loop() {
 
       <!-- SEÇÃO 4 -->
       <section class="secao" id="secao4">
+
+        <h2>DEUSES</h2>
+
+        <img
+          src="gilberto vido.png"
+          alt="Detector de Fumaça"
+          class="imagem-sensor"
+        >
+
+        <img
+          src="gilberto vido.png"
+          alt="Detector de Fumaça"
+          class="imagem-sensor"
+        >
+
+      <!-- SEÇÃO 5 -->
+      <section class="secao" id="secao5">
 
         <h2>MINECRAFT</h2>
 
@@ -407,6 +429,12 @@ void loop() {
           alt="Detector de Fumaça"
           class="imagem-sensor"
         >
+
+        <img
+          src="gilberto vido.png"
+          alt="Detector de Fumaça"
+          class="imagem-sensor"
+        >
         
         <p class="descricao">
           FILME CINEMA
@@ -423,5 +451,10 @@ void loop() {
   <script src="auth.js"></script>
   <script src="chat-ia.js"></script>
 
+  <img
+  src="imagem-ds-site-inferior.png"
+  class="imagem-fixa"
+  >
+
 </body>
-</html>
+</html> 
